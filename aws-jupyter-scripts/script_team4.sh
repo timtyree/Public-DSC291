@@ -16,8 +16,8 @@ aws-jupyter retrieve --remote /home/ubuntu/workspace/stats.pkl --local from_remo
 
 aws-jupyter run --script $MEM_DIR/run_trial.py
 sleep 120   # sleep 2 minutes
-aws-jupyter retrieve --remote /home/ubuntu/workspace/stats_run_a.pkl --local from_remote/
+aws-jupyter retrieve --remote /home/ubuntu/workspace/*.pkl --local from_remote/
 
 aws-jupyter run --script $MEM_DIR/run_trial.py
 sleep 120   # sleep 2 minutes
-aws-jupyter retrieve --remote /home/ubuntu/workspace/stats_run_b.pkl --local from_remote/
+aws-jupyter retrieve --remote /home/ubuntu/workspace/*.pkl --local from_remote/

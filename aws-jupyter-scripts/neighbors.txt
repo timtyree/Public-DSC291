@@ -1,2 +1,2 @@
 Ready. IP addresses of all instances:
-44.234.40.181
+44.226.207.104
