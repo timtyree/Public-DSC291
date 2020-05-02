@@ -1,2 +1,9 @@
 __pycache__
 .ipynb_checkpoints
+*.pyc
+*.pyc
+*.pyc
+*.parquet
+*.gz
+*.tgz
+*.pickle
